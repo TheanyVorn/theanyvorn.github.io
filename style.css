@@ -1,0 +1,43 @@
+            .navbar {
+                background-color: #1a0207;
+                /* overflow: hidden; */
+                display: flex;
+                justify-content: center;
+                padding: 15px 15px;
+                margin-bottom: 5px;
+             }
+            
+            .navbar a {
+                color: white;
+                text-decoration: none;
+                padding: 5px 40px;
+                text-align: center;
+                font-size: 18px;
+                font-weight: bold;
+                transition: background-color 0.3s;
+            }
+            
+            .navbar a:hover {
+                background-color: #FAA4BD;
+                color: #333;
+            }
+            
+            /* .navbar a.active {
+                background-color: #FAA4BD;
+            }  */
+            
+            body {
+                margin: 0;
+                padding: 0;
+                font-family: Arial, sans-serif;
+            }
+            
+            .container {
+                padding: 20px;
+            }
+
+            .contact-info {
+            margin-top: 40px;
+            text-align: center;
+            width: 100%;
+        }
