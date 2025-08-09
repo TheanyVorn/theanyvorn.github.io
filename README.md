@@ -1,9 +1,8 @@
-# Naratheany Vorn's Portfolio  
-  
-*Live Demo: [https://theanyvorn-portfolio.vercel.app/](https://theanyvorn-portfolio.vercel.app/)*  
+## 🚀 Overview of Naratheany Vorn's Portfolio  
 
-## 🚀 Overview  
-A responsive portfolio website showcasing Naratheany Vorn's skills, projects, education, and leadership experience. Features dark/light mode, scroll animations, and interactive galleries.  
+A responsive portfolio website showcasing Naratheany Vorn's skills, projects, education, and leadership experience. Features dark/light mode, scroll animations, and interactive galleries. 
+
+*Live Demo: [https://theanypofortfolio.netlify.app/)*  
 
 ## ✨ Features  
 - **Modern UI**: Clean design with gradient accents and particle animations  
@@ -17,7 +16,7 @@ A responsive portfolio website showcasing Naratheany Vorn's skills, projects, ed
 - **Frontend**: HTML5, CSS3, JavaScript  
 - **CSS Framework**: Bootstrap 5  
 - **Animations**: CSS Keyframes, Intersection Observer API  
-- **Deployment**: Vercel and GitHub
+- **Deployment**: GitHub and Netlify
 
 ## 🔧 Installation  
 1. Clone the repo:  
