@@ -17,7 +17,7 @@ A responsive portfolio website showcasing Naratheany Vorn's skills, projects, ed
 - **Frontend**: HTML5, CSS3, JavaScript  
 - **CSS Framework**: Bootstrap 5  
 - **Animations**: CSS Keyframes, Intersection Observer API  
-- **Deployment**: Vercel (or similar)  
+- **Deployment**: Vercel and GitHub
 
 ## 🔧 Installation  
 1. Clone the repo:  

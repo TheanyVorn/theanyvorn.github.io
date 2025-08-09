@@ -68,13 +68,20 @@ const experienceData = {
             'img/phum-impact-3.jpg'
         ],
         description: `
-            <p>Participated in an intensive 4-day Design Thinking Hackathon focused on creating innovative solutions for rural development challenges in Cambodia. This experience enhanced my problem-solving skills and collaborative approach to addressing real-world issues.</p>
+            <p>Participated in an intensive 3-day Design Thinking Hackathon focused on creating innovative solutions for rural development challenges in Cambodia. This experience enhanced my problem-solving skills and collaborative approach to addressing real-world issues.</p>
             <p><strong>Key Achievements:</strong></p>
             <ul>
                 <li>Developed a comprehensive solution for rural community development</li>
                 <li>Collaborated with diverse teams from different backgrounds</li>
                 <li>Applied design thinking methodology to solve complex problems</li>
                 <li>Presented innovative ideas to industry experts and judges</li>
+            </ul>
+            <p><strong>Impact:</strong></p>
+            <ul>
+                <li>Enhanced problem-solving and teamwork skills</li>
+                <li>Developed a deep understanding of rural development challenges</li>
+                <li>Learned to apply design thinking principles to real-world problems</li>
+                <li>Networked with industry experts and peers</li>
             </ul>
         `
     },
@@ -91,8 +98,14 @@ const experienceData = {
             <ul>
                 <li>Advanced digital literacy and technology skills</li>
                 <li>Understanding of Cambodia's ICT landscape</li>
-                <li>Networking with tech professionals and peers</li>
+                <li>Networking with tech professionals and peers internally and externally</li>
                 <li>Hands-on experience with emerging technologies</li>
+            </ul>
+            <p><strong>Impact:</strong></p>
+            <ul>
+                <li>Improved digital literacy and technology skills</li>
+                <li>Expanded professional network</li>
+                <li>Developed hands-on experience with emerging technologies</li>
             </ul>
         `
     },
@@ -105,13 +118,19 @@ const experienceData = {
             'img/khodinghero-cadt-4.jpg'
         ],
         description: `
-            <p>Served as a Khoding Hero Trainer, teaching programming and technology skills to students and community members. This role developed my leadership and teaching abilities.</p>
+            <p>Served as a Khoding Hero Trainer, teaching basic technology skills and creating game from Scratch to students and community members. This role developed my leadership and teaching abilities and get to understand the life in rural area with the locals.</p>
             <p><strong>Responsibilities:</strong></p>
             <ul>
-                <li>Conducted programming workshops and training sessions</li>
-                <li>Mentored students in coding and problem-solving</li>
+                <li>Conducted a 1-month training sessions for students in grade 7-9</li>
+                <li>Preparing and seeking for the best methods to train young teenagers from scratch</li>
                 <li>Developed curriculum and training materials</li>
                 <li>Fostered a collaborative learning environment</li>
+            </ul>
+            <p><strong>Impact:</strong></p>
+            <ul>
+                <li>Improved students' soft skills and basic technology use</li>
+                <li>Enhanced community access to technology education</li>
+                <li>Developed leadership and teaching abilities</li>
             </ul>
         `
     },
@@ -134,7 +153,7 @@ const experienceData = {
         `
     },
     'aiesec-impact': {
-        title: 'Impact Day 2024 - AIESEC in LUCT',
+        title: 'Impact Day 2024 Organizing Comittee Manager - AIESEC in LUCT',
         images: [
             'img/aiesec-impact-1.jpg',
             'img/aiesec-impact-2.jpg',
@@ -142,13 +161,13 @@ const experienceData = {
             'img/aiesec-impact-4.jpg'
         ],
         description: `
-            <p>Served as Organizing Committee Manager for Impact Day 2024, leading a team to create meaningful social impact initiatives and community engagement programs.</p>
+            <p>Served as Organizing Committee Manager for Impact Day 2024, leading teams with the same purpose to create meaningful social impact initiatives and community engagement programs especially for kids in primary school who lack of learning resources.</p>
             <p><strong>Leadership Achievements:</strong></p>
             <ul>
-                <li>Managed a diverse team of volunteers and organizers</li>
-                <li>Coordinated logistics for large-scale community event</li>
-                <li>Developed partnerships with local organizations</li>
+                <li>Managed a diverse team of volunteers/organizers</li>
+                <li>Developed partnerships with local school in rural area</li>
                 <li>Successfully executed impactful community programs</li>
+                <li>Coordinated committee members, ensure everyone understands their roles, and maintain good communication.</li>
             </ul>
         `
     }
@@ -249,3 +268,8 @@ document.getElementById('contact-form').addEventListener('submit', function(e) {
       alert('Failed to send email: ' + error.text);
     });
 });
+
+
+
+
+
