@@ -2,6 +2,8 @@
 
 A responsive portfolio website showcasing Naratheany Vorn's skills, projects, education, and leadership experience. Features dark/light mode, scroll animations, and interactive galleries. 
 
+This project is designed to demonstrate skills in my Web Development and UI/UX design course @Sister of Code. The website is modern, elegant, and slightly futuristic aesthetic with a soft, feminine touch aesthetic.
+
 *Live Demo: [https://theanypofortfolio.netlify.app/)*  
 
 ## ✨ Features  
