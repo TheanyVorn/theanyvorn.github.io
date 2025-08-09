@@ -238,3 +238,14 @@ document.addEventListener('keydown', function(event) {
         closeImageViewer();
     }
 });
+
+document.getElementById('contact-form').addEventListener('submit', function(e) {
+  e.preventDefault();
+  emailjs.sendForm('service_z4dtpel', 'template_9rfrq7h', this)
+    .then(function() {
+      alert('Email sent successfully!');
+      Form.reset();
+    }, function(error) {
+      alert('Failed to send email: ' + error.text);
+    });
+});
