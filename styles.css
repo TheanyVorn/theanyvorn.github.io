@@ -423,7 +423,8 @@ h1::after {
 }
 
 h2 {
-    font-size: var(--font-size-lg);
+/*     font-size: var(--font-size-lg); */
+    font-size: 2.5rem;
     font-weight: 700;
     margin-bottom: 2rem;
     background: var(--gradient);
