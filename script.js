@@ -263,7 +263,7 @@ document.getElementById('contact-form').addEventListener('submit', function(e) {
   emailjs.sendForm('service_z4dtpel', 'template_9rfrq7h', this)
     .then(function() {
       alert('Email sent successfully!');
-      Form.reset();
+      e.target.reset(); !important;
     }, function(error) {
       alert('Failed to send email: ' + error.text);
     });
