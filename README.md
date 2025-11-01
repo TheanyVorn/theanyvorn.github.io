@@ -1,6 +1,6 @@
 # Naratheany Vorn's Portfolio  
   
-*Live Demo: [https://theanyvorn-portfolio.vercel.app/](https://theanyvorn-portfolio.vercel.app/)*  
+*Live Demo: https://theanyvorn.github.io/*  
 
 ## 🚀 Overview  
 A responsive portfolio website showcasing Naratheany Vorn's skills, projects, education, and leadership experience. Features dark/light mode, scroll animations, and interactive galleries.  
