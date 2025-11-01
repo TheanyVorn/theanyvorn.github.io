@@ -60,12 +60,12 @@ if (hamburgerBtn && navMenu) {
 
 // Experience data with images and descriptions
 const experienceData = {
+
     'phum-impact': {
         title: 'Design Thinking Hackathon - Phum Impact',
         images: [
-            'img/PhumImpact.png',
+            'img/Phum-impact.png',
             'img/phum-impact-2.jpg',
-            'img/phum-impact-3.jpg'
         ],
         description: `
             <p>Participated in an intensive 3-day Design Thinking Hackathon focused on creating innovative solutions for rural development challenges in Cambodia. This experience enhanced my problem-solving skills and collaborative approach to addressing real-world issues.</p>
@@ -263,7 +263,7 @@ document.getElementById('contact-form').addEventListener('submit', function(e) {
   emailjs.sendForm('service_z4dtpel', 'template_9rfrq7h', this)
     .then(function() {
       alert('Email sent successfully!');
-      Form.reset();
+      e.target.reset();
     }, function(error) {
       alert('Failed to send email: ' + error.text);
     });
