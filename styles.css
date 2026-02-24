@@ -17,6 +17,7 @@
     --bg-color: #ffffff;
     --text-color: #2d2d2d;
     --text-secondary: #666666;
+    
     --card-bg: #f8f9fa;
     --shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
     --shadow-hover: 0 20px 40px rgba(0, 0, 0, 0.15);
@@ -93,23 +94,8 @@ body::before {
 
 @keyframes particleFloat {
 
-    0%,
-    100% {
-        transform: translateY(0px) translateX(0px);
-    }
+    /* ...existing code... */
 
-    25% {
-        transform: translateY(-20px) translateX(10px);
-    }
-
-    50% {
-        transform: translateY(-40px) translateX(-5px);
-    }
-
-    75% {
-        transform: translateY(-20px) translateX(-10px);
-    }
-} */
 
 /* Loading Animation */
 /* .loader {
@@ -374,7 +360,7 @@ h1::after {
 /* Contact Links */
 .contact-links {
     display: flex;
-    gap: 1rem;
+    gap: 1.5rem;
     justify-content: center;
     flex-wrap: wrap;
 }
@@ -385,13 +371,25 @@ h1::after {
     text-decoration: none;
     padding: 0.75rem 1.5rem;
     border-radius: 25px;
-    font-weight: 600;
+    /* font-weight: 600; */
     transition: all 0.3s ease;
     box-shadow: var(--shadow);
     position: relative;
     overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 64px; /* Adjust as needed for your design */
+    width: 100px; /* Adjust as needed for your design */
 }
 
+/* Ensure contact icons are centered and sized consistently */
+.contact-links a img {
+    display: block;
+    margin: 0 auto;
+    max-width: 32px;
+    max-height: 32px;
+}
 .contact-links a::before {
     content: '';
     position: absolute;
@@ -551,10 +549,6 @@ h2::after {
     box-shadow: var(--shadow);
     transition: all 0.3s ease;
     border: 1px solid rgba(255, 255, 255, 0.1);
-}
-
-.education-item::before {
-    /* Removed decorative dot */
 }
 
 .education-item:hover {
