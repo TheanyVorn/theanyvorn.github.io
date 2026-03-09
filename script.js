@@ -64,8 +64,8 @@ const experienceData = {
     'phum-impact': {
         title: 'Design Thinking Hackathon - Phum Impact',
         images: [
-            'img/Phum-impact.png',
-            'img/phum-impact-2.jpg',
+            'img/experience/Phum-impact.png',
+            'img/experience/phum-impact-2.jpg',
         ],
         description: `
             <p>Participated in an intensive 3-day Design Thinking Hackathon focused on creating innovative solutions for rural development challenges in Cambodia. This experience enhanced my problem-solving skills and collaborative approach to addressing real-world issues.</p>
@@ -88,9 +88,8 @@ const experienceData = {
     'odc-camp': {
         title: 'Cambodia ICT Camp - Open Development Center',
         images: [
-            'img/odc-camp-1.jpg',
-            'img/odc-camp-2.jpg',
-            'img/odc-camp-3.jpg'
+            'img/experience/odc-camp-1.jpg',
+            'img/experience/odc-camp-2.jpg'
         ],
         description: `
             <p>Participated in a comprehensive ICT training camp that focused on digital literacy, technology skills, and innovation in Cambodia's tech ecosystem.</p>
@@ -112,10 +111,10 @@ const experienceData = {
     'cadt-training': {
         title: 'Khoding Hero Trainer - CADT',
         images: [
-            'img/khodinghero-cadt-1.jpg',
-            'img/khodinghero-cadt-2.jpg',
-            'img/khodinghero-cadt-3.jpg',
-            'img/khodinghero-cadt-4.jpg'
+            'img/experience/khodinghero-cadt-1.jpg',
+            'img/experience/khodinghero-cadt-2.jpg',
+            'img/experience/khodinghero-cadt-3.jpg',
+            'img/experience/khodinghero-cadt-4.jpg'
         ],
         description: `
             <p>Served as a Khoding Hero Trainer, teaching basic technology skills and creating game from Scratch to students and community members. This role developed my leadership and teaching abilities and get to understand the life in rural area with the locals.</p>
@@ -137,9 +136,9 @@ const experienceData = {
     'nicc-startup': {
         title: 'NICC 11th Startup Camp (ICT) - NICC',
         images: [
-            'img/nicc-startup-1.jpg',
-            'img/nicc-startup-2.jpg',
-            'img/nicc-startup-3.jpg'
+            'img/experience/nicc-startup-1.jpg',
+            'img/experience/nicc-startup-2.jpg',
+            'img/experience/nicc-startup-3.jpg'
         ],
         description: `
             <p>Completed an intensive startup incubation program focusing on ICT entrepreneurship, business development, and innovation in the Cambodian startup ecosystem.</p>
@@ -155,10 +154,10 @@ const experienceData = {
     'aiesec-impact': {
         title: 'Impact Day 2024 Organizing Comittee Manager - AIESEC in LUCT',
         images: [
-            'img/aiesec-impact-1.jpg',
-            'img/aiesec-impact-2.jpg',
-            'img/aiesec-impact-3.jpg',
-            'img/aiesec-impact-4.jpg'
+            'img/experience/aiesec-impact-1.jpg',
+            'img/experience/aiesec-impact-2.jpg',
+            'img/experience/aiesec-impact-3.jpg',
+            'img/experience/aiesec-impact-4.jpg'
         ],
         description: `
             <p>Served as Organizing Committee Manager for Impact Day 2024, leading teams with the same purpose to create meaningful social impact initiatives and community engagement programs especially for kids in primary school who lack of learning resources.</p>
