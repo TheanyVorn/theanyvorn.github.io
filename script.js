@@ -173,20 +173,32 @@ const experienceData = {
 };
 
 // Modal functionality
-function openModal(experienceId, event) {
-    // Prevent any default behavior
+function openModal(id, event) {
     if (event) {
         event.preventDefault();
         event.stopPropagation();
     }
-
     const modal = document.getElementById('experienceModal');
     const modalTitle = document.getElementById('modalTitle');
     const modalGallery = document.getElementById('modalGallery');
     const modalDescription = document.getElementById('modalDescription');
 
-    const experience = experienceData[experienceId];
+    if (id === 'lcms-demo') {
+        modalTitle.textContent = 'Lecturer Contract Management System - Demo';
+        modalGallery.innerHTML = `
+            <video id="lcmsDemoVideo" controls preload="metadata" style="width: 100%; max-width: 1000px; max-height: 600px; display: block; margin: 0 auto; background: #000; border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.15);">
+                <source src="img/ProjectImg/LCMS-Demo.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        `;
+        modalDescription.innerHTML = '<p>This is a demonstration of the Lecturer Contract Management System project.</p>';
+        modal.style.display = 'block';
+        document.body.style.overflow = 'hidden';
+        modal.focus();
+        return false;
+    }
 
+    const experience = experienceData[id];
     if (experience) {
         modalTitle.textContent = experience.title;
         modalDescription.innerHTML = experience.description;
@@ -207,7 +219,6 @@ function openModal(experienceId, event) {
             img.onerror = () => {
                 img.style.display = 'none';
             };
-
             modalGallery.appendChild(img);
         });
 
