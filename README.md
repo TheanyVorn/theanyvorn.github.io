@@ -3,49 +3,46 @@
 *Live Demo: https://theanyvorn.github.io/*  
 
 ## 🚀 Overview  
-A responsive portfolio website showcasing Naratheany Vorn's skills, projects, education, and leadership experience. Features dark/light mode, scroll animations, and interactive galleries.  
+A minimalist portfolio website showcasing Naratheany Vorn's skills, projects, education, and leadership experience.
 
 ## ✨ Features  
-- **Modern UI**: Clean design with gradient accents and particle animations  
-- **Dark/Light Mode**: User-toggleable theme  
-- **Interactive Experience Gallery**: Modal popups with project details  
-- **Responsive Design**: Works on mobile, tablet & desktop  
-- **Scroll Animations**: Fade-in effects for sections  
-- **SEO Optimized**: Semantic HTML and meta tags  
+- **Minimalist UI**: Flat, distraction-free design with a neutral palette
+- **Dark/Light Mode**: User-toggleable theme
+- **Scroll Animations**: Fade-in effects for sections
+- **Responsive Design**: Works on mobile, tablet & desktop
+- **SEO Optimized**: Semantic HTML and meta tags
 
 ## 🛠 Technologies  
-- **Frontend**: HTML5, CSS3, JavaScript  
-- **CSS Framework**: Bootstrap 5  
-- **Animations**: CSS Keyframes, Intersection Observer API  
-- **Deployment**: Vercel and GitHub
+- **Frontend**: React 19, Vite
+- **CSS**: Custom stylesheet with CSS variables for theming
+- **Contact form**: EmailJS
+- **Deployment**: GitHub Pages, via GitHub Actions
 
-## 🔧 Installation  
-1. Clone the repo:  
+## 🔧 Development  
 ```bash
-git clone https://github.com/TheanyVorn/portfolio.git
+git clone https://github.com/TheanyVorn/theanyvorn.github.io.git
+cd theanyvorn.github.io/my-react-portfolio
+npm install
+npm run dev
 ```
-2. Open `index.html` in your browser 
 
 ## 📁 Project Structure
-text
-portfolio/  
-├── index.html          # Main page  
-├── styles.css          # Custom styles  
-├── script.js           # Interactive functionality  
-└── img/                # Project images
-
-## 🌟 Highlights
-Dynamic Theme Toggle: JavaScript-driven dark/light mode
-
-Gallery Modals: Experience details with image carousel
-
-Mobile-First Navbar: Collapsible Bootstrap navbar
+```text
+theanyvorn.github.io/
+├── .github/workflows/deploy.yml   # Builds & deploys to GitHub Pages
+└── my-react-portfolio/            # React app (source of the live site)
+    ├── public/img/                # Static assets (profile picture)
+    └── src/
+        ├── components/            # Navbar, Header, About, Skills, etc.
+        ├── data/                  # Content (skills, education, experience, projects)
+        └── styles/                # Stylesheet
+```
 
 ## 🔗 Links
 [GitHub](https://github.com/TheanyVorn/)
 
 [LinkedIn](https://www.linkedin.com/in/naratheany-vorn-493846341)
 
-[Email](https://mailto:vornnaratheany@gmail.com/)
+[Email](mailto:vornnaratheany@gmail.com)
 
 © 2026 Naratheany Vorn | MIT License
