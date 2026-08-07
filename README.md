@@ -48,4 +48,4 @@ Mobile-First Navbar: Collapsible Bootstrap navbar
 
 [Email](https://mailto:vornnaratheany@gmail.com/)
 
-© 2025 Naratheany Vorn | MIT License
+© 2026 Naratheany Vorn | MIT License
