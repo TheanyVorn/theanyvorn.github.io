@@ -21,7 +21,7 @@ A minimalist portfolio website showcasing Naratheany Vorn's skills, projects, ed
 ## 🔧 Development  
 ```bash
 git clone https://github.com/TheanyVorn/theanyvorn.github.io.git
-cd theanyvorn.github.io/my-react-portfolio
+cd theanyvorn.github.io
 npm install
 npm run dev
 ```
@@ -30,12 +30,11 @@ npm run dev
 ```text
 theanyvorn.github.io/
 ├── .github/workflows/deploy.yml   # Builds & deploys to GitHub Pages
-└── my-react-portfolio/            # React app (source of the live site)
-    ├── public/img/                # Static assets (profile picture)
-    └── src/
-        ├── components/            # Navbar, Header, About, Skills, etc.
-        ├── data/                  # Content (skills, education, experience, projects)
-        └── styles/                # Stylesheet
+├── public/img/                    # Static assets (profile picture)
+└── src/
+    ├── components/                # Navbar, Header, About, Skills, etc.
+    ├── data/                      # Content (skills, education, experience, projects)
+    └── styles/                    # Stylesheet
 ```
 
 ## 🔗 Links

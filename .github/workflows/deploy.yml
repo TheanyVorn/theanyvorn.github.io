@@ -3,9 +3,8 @@ name: Deploy React portfolio to GitHub Pages
 on:
   push:
     branches: [main]
-    paths:
-      - "my-react-portfolio/**"
-      - ".github/workflows/deploy.yml"
+    paths-ignore:
+      - "**.md"
   workflow_dispatch:
 
 permissions:
@@ -20,9 +19,6 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
-    defaults:
-      run:
-        working-directory: my-react-portfolio
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -32,7 +28,7 @@ jobs:
         with:
           node-version: 20
           cache: npm
-          cache-dependency-path: my-react-portfolio/package-lock.json
+          cache-dependency-path: package-lock.json
 
       - name: Install dependencies
         run: npm ci
@@ -43,7 +39,7 @@ jobs:
       - name: Upload build artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: my-react-portfolio/dist
+          path: dist
 
   deploy:
     needs: build
