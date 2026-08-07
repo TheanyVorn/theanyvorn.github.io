@@ -1,0 +1,29 @@
+@import './styles/styles.css';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#root {
+    width: 100%;
+}
+
+.App {
+    width: 100%;
+}
+
+header {
+    width: 100%;
+}
+
+main {
+    width: 100%;
+    display: block;
+}
+
+footer {
+    width: 100%;
+}
+
